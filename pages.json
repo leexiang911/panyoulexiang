@@ -1,0 +1,171 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			// 首页
+			"path": "pages/index/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		}, {
+			// 订阅
+			"path": "pages/subscribe/subscribe",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		}, {
+			// 发现
+			"path": "pages/found/found",
+			"style": {
+				"navigationStyle": "custom"
+			}
+
+		}, {
+			// 发布
+			"path": "pages/publish/publish",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			// 仓库
+			"path": "pages/storehouse/storehouse",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		}
+
+		, {
+			"path": "pages/self/self",
+			"style": {
+				"navigationBarTitleText": "账户设置",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			// 用户登录
+			"path": "pages/userInfo/userLogin/userLogin",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#fff"
+			}
+
+		}, {
+			// 手机验证码登录
+			"path": "pages/userInfo/phoneNumberLogin/phoneNumberLogin",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#fff"
+			}
+
+		}, { //注册账户
+			"path": "pages/userInfo/signUpAccount/signUpAccount",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#fff"
+			}
+
+		}, { // 搜索页面
+			"path": "pages/search/search",
+			"style": {
+				"navigationStyle": "custom"
+			}
+
+		}, { // 文章详情
+			"path": "pages/articleDetails/articleDetails",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/commentList/commentList",
+			"style": {
+				"navigationBarTitleText": "评论列表",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/announcement/announcement",
+			"style": {
+				"navigationBarTitleText": "公告",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/conventions/conventions",
+			"style": {
+				"navigationBarTitleText": "约定",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/vote/vote",
+			"style": {
+				"navigationBarTitleText": "投票",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/sponsor/sponsor",
+			"style": {
+				"navigationBarTitleText": "赞助",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/author_article/author_article",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/article_list/article_list",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+		"color": "#0f0f0f",
+		"selectedColor": "#6cf",
+		"backgroundColor": "#ffffff",
+		"borderStyle": "black",
+		"list": [{
+			"pagePath": "pages/index/index", //页面路径
+			"iconPath": "static/nav_bar_bottom/1house-light.png",
+			"selectedIconPath": "static/nav_bar_bottom/1house-light-select.png",
+			"text": "首页"
+		}, {
+			"pagePath": "pages/found/found",
+			"iconPath": "static/nav_bar_bottom/2columns-light.png",
+			"selectedIconPath": "static/nav_bar_bottom/2columns-light-select.png",
+			"text": "发现"
+		}, {
+			"pagePath": "pages/publish/publish",
+			"iconPath": "static/nav_bar_bottom/3plus-circle-light.png",
+			"selectedIconPath": "static/nav_bar_bottom/3plus-circle-light-select.png",
+			"text": "发布"
+		}, {
+			"pagePath": "pages/subscribe/subscribe",
+			"iconPath": "static/nav_bar_bottom/4lightbulb-light.png",
+			"selectedIconPath": "static/nav_bar_bottom/4lightbulb-light-select.png",
+			"text": "订阅"
+		}, {
+			"pagePath": "pages/storehouse/storehouse",
+			"iconPath": "static/nav_bar_bottom/5collection-light.png",
+			"selectedIconPath": "static/nav_bar_bottom/5collection-light-select.png",
+			"text": "仓库"
+		}]
+	}
+}
